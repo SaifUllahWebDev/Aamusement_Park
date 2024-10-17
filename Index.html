@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Merciado Amusement Park</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+            
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    </head>
+
+    <body>
+        <header>
+            <div class="hero">
+                <video src="Images/Untitled design (1).mp4" class="vid" autoplay loop muted></video>
+                <nav class="navbar navbar-expand-lg bg-light bg-opacity-50 ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand mx-3" href="Index.html">
+                            <span><b><b>Merciado <br> Amusement Park</b></b></span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active fw-bold text-black" aria-current="page" href="Index.html" id="nav-home">Home</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link fw-bold text-black" href="#" id="nav-about">About Us</a>
+                                </li>
+                                <li class="nav-item dropdown mx-3">
+                                    <a class="nav-link dropdown-toggle fw-bold text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav-zones">
+                                        Zones
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="adventurezones.html">Adventure Zone</a></li>
+                                        <li><a class="dropdown-item" href="familyzone.html">Family Zone</a></li>
+                                        <li><a class="dropdown-item" href="arcadezone.html">Arcade Zone</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mx-3 fw-bold">
+                                    <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav-entertainment">
+                                        Entertainment
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="attraction.html">Attractions</a></li>
+                                        <li><a class="dropdown-item" href="restaurant.html">Restaurants</a></li>
+                                        <li><a class="dropdown-item" href="rides.html">Rides</a></li>
+                                        <li><a class="dropdown-item" href="Concert.html">Concerts</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mx-3">
+                                    <a class="nav-link dropdown-toggle fw-bold text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav-tickets">
+                                        Tickets
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="tickets.html">Packages</a></li>
+                                        <li><a class="dropdown-item" href="price.html">Prices</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link fw-bold text-black" href="gallery.html" id="nav-gallery">Gallery</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link fw-bold text-black" href="#" id="nav-contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+                <div class="main-form-container">
+                    <div class="main">
+                        <h1><span><b>Merciado Amusement Park <br></span>The New Experience of Joy</b></h1>
+                        <p>Step into a world of excitement and wonder as you explore our exhilarating rides, captivating attractions, and immersive experiences. At Merciado, every visit promises unforgettable moments and a fresh perspective on fun. Discover the new standard in entertainment and create cherished memories with your family and friends. Your next great adventure starts here!</p>
+                    </div>
+                    <div class="form-container">
+                        <h2>Book Your Tickets</h2>
+                        <form action="/submit" method="post">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="date">Visit Date:</label>
+                            <input type="date" id="date" name="date" required>
+                            <label for="tickets">Number of Tickets:</label>
+                            <input type="number" id="tickets" name="tickets" min="1" required>
+                            <label for="type">Ticket Type:</label>
+                            <select id="type" name="type" required>
+                                <option value="weekday">Weekday</option>
+                                <option value="weekend">Weekend</option>
+                                <option value="family">Family Pack</option>
+                            </select>
+                            <button type="submit" onclick="alert('Your Tickets Have been Booked')">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+<div class="banner reaveal">
+    <img src="Images/banner.png" alt="" id="banner">
+</div>
+        <div class="about-sec " style="font-family: sans-serif;">
+            <div class="park-div">
+            <div class="park-text mt-5">
+                <h2><b>About Merciado Amusement park</b></h2>
+            
+                <h1>The Best Theme & Amusement Park For Your Family</h1>
+                <p>Merciado Amusement park is now prime focus of the city and
+                    nation. It is made by
+                    Seth groups of companies. The development of this park took
+                    5 years to get their
+                    desired finished product. It has became nation pride now.
+                    The area of theme park i0s
+                    about 45 acre land. The Management has put all the efforts
+                    to keep the attractions
+                    operational.</p>
+                </div>
+            </div>
+            <div class="about-info ">
+                <div class="sec-1">
+                    <div class="food">
+                        <i class="fa-solid fa-champagne-glasses"
+                            id="about-icon"></i>
+                        <h3>FOODS & DRINKS</h3>
+                        <p>At Merciado Amusement Park, enjoy a variety of tasty options from gourmet burgers and crispy fries to fresh salads and indulgent desserts. Quench your thirst with our selection of refreshing beverages. With something for every taste, dining here is always a treat.</p>
+                    </div>
+                    <div class="price">
+                        <i class="fa-solid fa-hand-holding-dollar"
+                            id="about-icon"></i>
+                        <h3>CHEAP PRICE</h3>
+                        <p>Experience fun without overspending at Merciado Amusement Park. Our competitive prices ensure you get the best value for your food, drinks, and attractions. Enjoy a fantastic day out with affordable options for everyone.</p>
+                    </div>
+                </div>
+                <div class="sec-2">
+                    <div class="attractions">
+                        <i class="fa-solid fa-hand-holding-heart"
+                            id="about-icon"></i>
+                        <h3>ATTRACTIONS</h3>
+                        <p>Discover a world of excitement with our thrilling rides, immersive attractions, and fun-filled experiences. From high-speed roller coasters to family-friendly rides, there's something to excite every visitor.</p>
+                    </div>
+                    <div class="locker">
+                        <i class="fa-solid fa-lock" id="about-icon"></i>
+                        <h3>SAFETY LOCKERS</h3>
+                        <p>Keep your belongings safe with our convenient safety lockers. Enjoy your time at the park with peace of mind, knowing your items are secure and accessible whenever you need them.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="services  ">
+            <div class="ser-info">
+                
+                <h1>Explore Merciado Amusement Park </h1>
+                <p>Amusement parks provide a wide range of entertainment
+                    options, from exhilarating rides and roller coasters to
+                    themed attractions and live shows. They often feature
+                    diverse dining options, souvenir shops, and amenities like
+                    stroller rentals and guest assistance to ensure a fun and
+                    comfortable experience for all visitors.</p>
+            </div>
+          
+            <div class="home-cards">
+                <div class="info-cards" id="hut">
+                    <i class="fa-solid fa-house-chimney" id="card-icon"></i>
+                    <h2>PRIVATE HUT</h2>
+                    <p>Private huts at amusement parks offer a secluded and
+                        comfortable space to relax, with amenities and a
+                        personalized experience away from the crowds.
+                    </p>
+                </div>
+                <div class="info-cards" id="food"> 
+                    <i class="fa-solid fa-utensils" id="card-icon"></i></i>
+                    <h2>Delicious Food</h2>
+                    <p>
+                        Delicious food is a delightful explosion of flavors that tantalizes the senses. Each bite is a moment of pure culinary joy, evoking warmth and satisfaction.
+                    </p>
+                </div>
+                <div class="info-cards" id="lock">
+                    <i class="fa-solid fa-door-closed" id="card-icon"></i></i>
+                    <h2>Safety Lockers</h2>
+                    <p>Safety lockers provide secure storage for valuables, ensuring peace of mind with their robust locking mechanisms and theft-resistant designs.
+                    </p>
+                </div>
+                <div class="info-cards" id="ride">
+                    <i class="fa-solid fa-face-laugh-beam" id="card-icon"></i></i>
+                    <h2>Exciting Rides</h2>
+                    <p>
+                        Exciting rides offer a thrilling rush of adrenaline, combining speed, twists, and turns to create unforgettable experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="team pt-5">
+            <h2>OUR TEAM</h2>
+            <h1>Our Amusement Park Dedicated Team Member</h1>
+            <p>Our Amusement Park dedicated team member ensures every guest experiences joy and excitement, bringing passion and expertise to every aspect of the park. Their commitment shines through in every interaction, making each visit unforgettable.</p>
+ 
+  
+    <div class="container overflow-hidden">
+      <div class="row gy-4 gy-lg-0 gx-xxl-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="Images/team4.avif" alt="Flora Nyra">
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Liam Parker</h4>
+                  <p class="text-primary mb-0">Park Manager</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="Images/team3.avif" alt="Evander Mac">
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Ava Johnson</h4>
+                  <p class="text-primary mb-0">Marketing Director</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="Images/team2.avif" alt="Taytum Elia">
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Ethan Mitchell</h4>
+                  <p class="text-primary mb-0">Guest Services Manager</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+            <div class="card-body p-0">
+              <figure class="m-0 p-0">
+                <img class="img-fluid" loading="lazy" src="Images/team1.avif" alt="Wylder Elio">
+                <figcaption class="m-0 p-4">
+                  <h4 class="mb-1">Noah Bennett</h4>
+                  <p class="text-primary mb-0">Ride Operations Supervisor</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        </div>
+        <div class="testimonial">
+            <h1>"Testimonials"</h1>
+            <div class="testimonial-slider">
+                
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="Images/t1.jpg" class="test-img" alt="">
+                        <p class="testimonial-text">"This is the best amusement park experience I've ever had! The rides are amazing and the staff is incredibly friendly."</p>
+                        <p class="testimonial-author">- Emily Jane Thompson</p>
+                    </div>
+                    <div class="slide">
+                        <img src="Images/t2.avif" class="test-img" alt="">
+                        <p class="testimonial-text">"I had a fantastic time with my family. The attractions are well-maintained and there's something for everyone."</p>
+                        <p class="testimonial-author">- Ava Marie Johnson</p>
+                    </div>
+                    <div class="slide">
+                        <img src="Images/t3.avif" class="test-img" alt="">
+                        <p class="testimonial-text">"An unforgettable experience! The park is clean, the food is great, and the shows are top-notch."</p>
+                        <p class="testimonial-author">- Liam Alexander Brown</p>
+                    </div>
+                    <div class="slide">
+                        <img src="Images/t4.avif" class="test-img" alt="">
+                        <p class="testimonial-text">"Fun rides and clean park, but some older attractions felt outdated. The staff were excellent, and the themed areas were a nice touch."</p>
+                        <p class="testimonial-author">- Sophia Grace Martinez</p>
+                    </div>
+                    <div class="slide">
+                        <img src="Images/t5.avif" class="test-img" alt="">
+                        <p class="testimonial-text">"The rides are awesome, but the park was very crowded. Long wait times and expensive food were downsides. A visit on a quieter day might be better."</p>
+                        <p class="testimonial-author">- Noah William Davis</p>
+                    </div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            
+        </div>
+        <!-- <div class="contact-us">
+            <h1>Contact Us</h1>
+            <div class="about-text">
+                
+           <div class="locate">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1724861028061!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="location"></iframe>
+    </div> 
+            <div class="form">
+           
+                <main>
+                    <section class="contact-form">
+                        <h2>Get in Touch</h2>
+                        <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out to us. Our team is here to help you with any inquiries or concerns you may have.</p>
+                        <form action="#" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject">
+                            
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </section>
+                </main>
+            </div>
+        </div> -->
+        <div class="container-fluid contact py-5">
+          <h1 class="text-center py-3 fs-1 fw-bold " style="color: rgb(36, 133, 245);">Contact Us</h1>
+          <div class="container py-5">
+              <div class="row g-5"> 
+                  <div class="col-12 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                      <div>
+                          <div class="pb-5 text-center">
+                              <h4 class="text-primary">Get in Touch</h4>
+                              
+                          </div>
+                          <div class="row g-4">
+                              <div class="col-lg-6">
+                                  <div class="contact-add-item rounded bg-light p-4">
+                                      <div class="contact-icon text-primary mb-4">
+                                          <i class="fas fa-map-marker-alt fa-2x"></i>
+                                      </div>
+                                      <div>
+                                          <h4>Address</h4>
+                                          <p class="mb-0">8746 Broadway Ave, New York</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="contact-add-item rounded bg-light p-4">
+                                      <div class="contact-icon text-primary mb-4">
+                                          <i class="fas fa-envelope fa-2x"></i>
+                                      </div>
+                                      <div>
+                                          <h4>Mail Us</h4>
+                                          <p class="mb-0">merciadopark@gmail.com</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="contact-add-item rounded bg-light p-4">
+                                      <div class="contact-icon text-primary mb-4">
+                                          <i class="fa fa-phone-alt fa-2x"></i>
+                                      </div>
+                                      <div>
+                                          <h4>Telephone</h4>
+                                          <p class="mb-0">(+012) 3456 7890</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="contact-add-item rounded bg-light p-4">
+                                      <div class="contact-icon text-primary mb-4">
+                                          <i class="fab fa-firefox-browser fa-2x"></i>
+                                      </div>
+                                      <div>
+                                          <h4>marciadopark@.com</h4>
+                                          <p class="mb-0">(+012) 3456 7890</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12">
+                                  <div class="d-flex justify-content-around bg-light rounded p-4">
+                                      <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                                      <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
+                                      <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                                      <a class="btn btn-xl-square btn-primary rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                      <div class="bg-light p-5 rounded h-100">
+                          <h4 class="text-primary mb-4">Send Your Message</h4>
+                          <form>
+                              <div class="row g-4">
+                                  <div class="col-lg-12 col-xl-6">
+                                      <div class="form-floating">
+                                          <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                          <label for="name">Your Name</label>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-12 col-xl-6">
+                                      <div class="form-floating">
+                                          <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                          <label for="email">Your Email</label>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-12 col-xl-6">
+                                      <div class="form-floating">
+                                          <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                          <label for="phone">Your Phone</label>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-12 col-xl-6">
+                                      <div class="form-floating">
+                                          <input type="text" class="form-control border-0" id="project" placeholder="Project">
+                                          <label for="project">City</label>
+                                      </div>
+                                  </div>
+                                  <div class="col-12">
+                                      <div class="form-floating">
+                                          <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                                          <label for="subject">Subject</label>
+                                      </div>
+                                  </div>
+                                  <div class="col-12">
+                                      <div class="form-floating">
+                                          <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                                          <label for="message">Message</label>
+                                      </div>
+
+                                  </div>
+                                  <div class="col-12">
+                                      <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
+                      <div class="rounded">
+                          <iframe class="rounded w-100" 
+                          style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
+                          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+       <!-- FOOTER SECTION STARTS -->
+<section class="footer">
+    <div class="footer-row">
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Attractions</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact Info</h4>
+            <ul class="links">
+                <li><a href="#">Jl. Raya Mas Ubud No.88, Gianyar, Bali, Indonesia – 80571</a></li>
+                <li><a href="#">+62 361 154874</a></li>
+                <li><a href="#">contact@domain.com</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Legal</h4>
+            <ul class="links">
+                <li><a href="#">Customer Agreement</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Subscribe to our newsletter for a weekly dose of news, updates, helpful tips, and exclusive offers.</p>
+            <form action="#">
+                <input type="text" placeholder="Your email" required>
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <p style="color: white; text-align: center; margin: 20px 0;">Copyright © 2023 Merciado Amusement Park. All rights Reserved</p>
+        <p style="color: #bfbfbf; text-align: center;  background-color: #10182f; ">
+            Disclaimer: The information provided on this website is for general informational purposes only. Any reliance you place on such information is strictly at your own risk.
+        </p>
+    </div>
+    
+   
+</section>
+<!-- FOOTER SECTION ENDS -->
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="front.js"></script>
+    </body>
+
+</html>
